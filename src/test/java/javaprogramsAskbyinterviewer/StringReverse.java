@@ -10,7 +10,8 @@ public class StringReverse {
 	Scanner sc=new Scanner(System.in);  
 	System.out.print("Enter a String: ");  
 	s=sc.nextLine();                    //reading string from user  
-	System.out.print("After reverse string is: ");  
+	System.out.print("After reverse string is: "); 
+	//int i=s.length();
 	for(int i=s.length();i>0;--i)                //i is the length of the string  
 	{  
 	System.out.print(s.charAt(i-1));            //printing the character at index i-1  
