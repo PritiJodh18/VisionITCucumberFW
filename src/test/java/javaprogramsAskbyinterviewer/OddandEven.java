@@ -3,7 +3,7 @@ package javaprogramsAskbyinterviewer;
 import java.util.Scanner;
 
 public class OddandEven {
-	public static void main(String args[])
+	public static void main(javastringpro args[])
 	  {
 	 int num;
 	    System.out.println("Enter an Integer number:");
