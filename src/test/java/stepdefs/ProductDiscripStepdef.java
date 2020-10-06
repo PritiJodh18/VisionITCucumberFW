@@ -15,14 +15,13 @@ public class ProductDiscripStepdef extends TestBase{
 	this.testContextUI = testContextUI;
 
 	}
-	
 	@When("User click on any product")
 	public void user_click_on_any_product() {
-	    
+	   testContextUI.getSearchPageObjects().ProductClick();
 	}
 
 	@Then("Product Description is displayed in new tab")
 	public void product_Description_is_displayed_in_new_tab() {
-	    
+	   testContextUI.getSearchPageObjects().CheckProductDiscription();
 	}
 }
