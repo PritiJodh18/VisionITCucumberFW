@@ -9,7 +9,10 @@ public class TestContextUI {
 
 	private WebDriver driver;
 	private SearchPageObject searchPageObjects;
-	
+	private DataTablePageobject dataTablePageobject;	
+	public DataTablePageobject getDataTablePageobject() {
+		return dataTablePageobject;
+	}
 	public WebDriver getDriver() {
 		return driver;
 	}
@@ -21,7 +24,8 @@ public class TestContextUI {
 	}
 
 	public void initializePageObjectClasses(WebDriver driver,Scenario scn) {
-	searchPageObjects = new SearchPageObject(driver,scn);
+	searchPageObjects = new SearchPageObject(driver, scn);
+	dataTablePageobject=new DataTablePageobject(driver,scn);
 	}
 	
 }
