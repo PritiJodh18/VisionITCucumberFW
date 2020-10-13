@@ -9,7 +9,8 @@ Feature: E-commerce Project Web Site Health Check
 
     @tag2
     Scenario: User is click on the Product and check the Product Details
-    Given User navigated to the home application url
+    Given User opened browser
+    And User navigated to the home application url
     And User Search for product "earphone"
     When User click on any product
-    Then Product Description is displayed in new tab
+    Then Product Description is displayed in new tab 

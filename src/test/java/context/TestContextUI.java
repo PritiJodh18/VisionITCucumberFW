@@ -10,7 +10,6 @@ public class TestContextUI {
 	private WebDriver driver;
 	private SearchPageObject searchPageObjects;
 	
-
 	public WebDriver getDriver() {
 		return driver;
 	}
